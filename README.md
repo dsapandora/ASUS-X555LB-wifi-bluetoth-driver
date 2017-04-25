@@ -35,7 +35,7 @@ The driver will automatically load at startup...
 
 ### Bluetooth
 
-For kernel 3.13 - 3.16 bluetooth may work without any extra efforts, but for higher kernels it may not work at all. A kernel patch for the bluetooth driver may be needed to get it up and working.
+For kernel 3.13 - 4.8 bluetooth may work without any extra efforts, but for higher kernels it may not work at all. A kernel patch for the bluetooth driver may be needed to get it up and working.
 
 If wifi works after installing the driver but bluetooth doesn't, you should first check if bluetooth is hard/soft blocked. If it is blocked then remove the block, but if that's not the case then we have a patch for you that you can apply to your kernel.
 
